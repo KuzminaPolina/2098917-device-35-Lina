@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -124,8 +125,8 @@
             <nav class="bottom-navigation">
               <ul class="bottom-navigation-catalog">
                 <li class="bottom-navigation-catalog-item">
-                  <button class="navigation-link-bottom-dropdown but-make-it-a-button" type="button">каталог товаров
-                    <span class="catalog-closed"></span> <!--Change to .catalog-open to change ONLY icon form(!)-->
+                  <button class="navigation-link-bottom-dropdown js-button" type="button">каталог товаров
+                    <span class="js-button-icon icon-plus"></span> <!--Change to .icon-minus to change ONLY icon form(!)-->
                   </button>
                 </li>
                 <li class="bottom-navigation-catalog-item">
@@ -707,5 +708,7 @@
         </section>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
