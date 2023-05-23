@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "swiper": "^9.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build"
   }
 }
